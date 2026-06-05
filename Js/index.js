@@ -3,7 +3,7 @@ function setActive(name) {
   const donationBtn = document.getElementById("btn-donation");
   const historyBtn = document.getElementById("btn-history");
 
-  //   content changing
+  //   content changing when button clicked
   const donationSection = document.getElementById("donation-section");
   const historySection = document.getElementById("history-section");
 
