@@ -4,10 +4,10 @@
         const historyBtn = document.getElementById('btn-history');
 
         if (name === 'donation') {
-            donationBtn.className = 'btn min-h-0 h-[45px] px-6 bg-[#B4F461] border-none text-black font-semibold';
-            historyBtn.className = 'btn min-h-0 h-[45px] px-6 bg-white border border-gray-300 text-black font-semibold';
+            donationBtn.className = 'bg-[#B4F461] border-none text-black font-semibold btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl';
+            historyBtn.className = 'btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl';
         } else {
-            historyBtn.className = 'btn min-h-0 h-[45px] px-6 bg-[#B4F461] border-none text-black font-semibold';
-            donationBtn.className = 'btn min-h-0 h-[45px] px-6 bg-white border border-gray-300 text-black font-semibold';
+            historyBtn.className = 'bg-[#B4F461] border-none text-black font-semibold btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl';
+            donationBtn.className = 'bg-white border border-gray-300 text-black font-semibold btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl';
         }
     }
