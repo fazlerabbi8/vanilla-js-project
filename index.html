@@ -44,19 +44,28 @@
     <main>
         <!-- toggle button here:Donation + History -->
         <div class="flex gap-3 justify-center items-center mx-auto mt-10">
-            <button id="btn-donation"
-        onclick="setActive('donation')" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Donation</button>
-            <button tton 
-        id="btn-history"
-        onclick="setActive('history')" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">History</button>
+            <button id="btn-donation" onclick="setActive('donation')"
+                class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Donation</button>
+            <button tton id="btn-history" onclick="setActive('history')"
+                class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">History</button>
         </div>
 
-        <!--  -->
+        <!-- Donation Section -->
+        <div id="donation-section" class="mt-6">
+            <div>
+
+            </div>
+        </div>
+
+        <!-- History Section -->
+        <div id="history-section" class="mt-6 hidden">
+            <p>History content goes here...</p>
+        </div>
     </main>
 
 
     <!-- scripts-->
-     <script src="/Js/index.js"></script>
+    <script src="/Js/index.js"></script>
 </body>
 
 </html>
