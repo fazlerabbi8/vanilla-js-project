@@ -26,3 +26,7 @@ function setActive(name) {
     donationSection.classList.add("hidden");
   }
 }
+
+
+// Donation button always active
+setActive('donation');
