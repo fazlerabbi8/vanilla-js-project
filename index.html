@@ -13,19 +13,31 @@
 
 <body>
     <!-- navbar starts here -->
-     <div class="navbar bg-[#F9F7F3] shadow-sm min-h-0 h-[100px] px-6">
-        <div class="navbar-start mb-4">
-            <button class="btn bg-[#B4F461] border-none text-black h-[40px] min-h-0 px-6 font-bold">Blog</button>
+    <nav>
+        <div class="navbar bg-[#F9F7F3] shadow-sm min-h-0 h-[72px]">
+            <div class="max-w-[1440px] w-full mx-auto px-6 flex items-center">
+
+                <!--Blog Button -->
+                <div class="flex-1">
+                    <button
+                        class="btn bg-[#B4F461] border-none text-black font-semibold h-[40px] min-h-0 px-6">Blog</button>
+                </div>
+
+                <!--Logo + Title -->
+                <div class="flex items-center gap-2">
+                    <img class="h-10 w-10" src="assets/logo.png" alt="logo">
+                    <span class="text-xl font-bold">Donate Bangladesh</span>
+                </div>
+
+                <!--Coin + BDT -->
+                <div class="flex-1 flex justify-end items-center gap-2">
+                    <img class="h-7 w-7" src="assets/coin.png" alt="coin">
+                    <h3 class="font-bold text-gray-500">5500 <span>BDT</span></h3>
+                </div>
+
+            </div>
         </div>
-        <div class="navbar-center flex items-center mb-4 gap-2">
-            <img class="h-10 w-10" src="assets/logo.png" alt="logo">
-            <span class="text-xl font-bold">Donate Bangladesh</span>
-        </div>
-        <div class="navbar-end flex items-center mb-4 gap-2">
-            <img class="h-7 w-7" src="assets/coin.png" alt="coin">
-            <span class="font-bold text-gray-500">5500 <span>BDT</span></span>
-        </div>
-    </div>
+    </nav>
     <!-- navbar end here-->
 </body>
 
