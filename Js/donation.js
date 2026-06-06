@@ -12,13 +12,11 @@ document.getElementById("noakhali").addEventListener("click", function (event) {
     return;
   }
 
-  
-
-  if (newBalance > totalBalance) {
+  if (donationMoney > totalBalance) {
     alert("You have not enough money!");
     return;
   }
-  
+
   const newBalance = donationMoney + balance;
   const reduceTotalBalance = totalBalance - donationMoney;
 
@@ -52,7 +50,7 @@ document.getElementById("feni").addEventListener("click", function (event) {
     return;
   }
 
-  if (newBalance > totalBalance) {
+  if (donationMoney > totalBalance) {
     alert("You have not enough money!");
     return;
   }
@@ -90,7 +88,7 @@ document.getElementById("qouta").addEventListener("click", function (event) {
     return;
   }
 
-  if (newBalance > totalBalance) {
+  if (donationMoney > totalBalance) {
     alert("You have not enough money!");
     return;
   }
