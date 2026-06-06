@@ -27,6 +27,5 @@ function setActive(name) {
   }
 }
 
-
 // Donation button always active
 setActive('donation');

@@ -76,8 +76,25 @@
                             relief
                             efforts and making a positive impact on the lives of those in need.</p>
                         <div class="card-actions justify-center flex">
-                            <input id="noakhali-donation" type="text" placeholder="Donation Balance" class="input w-full" />
-                            <button id="noakhali" class="btn w-full bg-[#B4F461]">Donate Now</button>
+                            <input id="noakhali-donation" type="text" placeholder="Donation Balance"
+                                class="input w-full" />
+                            <button id="noakhali" onclick="my_modal_5.showModal()"
+                                class="btn w-full bg-[#B4F461]">Donate Now</button>
+                            <!-- Modal -->
+                            <dialog id="noakhali_modal" class="modal modal-bottom sm:modal-middle">
+                                <div class="modal-box">
+                                    <h3 class="text-lg font-bold">Congrates!</h3>
+                                    <img src="/assets/coin.png" alt="">
+                                    <p class="py-4">You Have Donate for Human Kind.</p>
+                                    <h3 class="font-bold">Successfully</h3>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                            <!-- if there is a button in form, it will close the modal -->
+                                            <button class="btn">Close</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </dialog>
                         </div>
                     </div>
                 </div>
@@ -107,7 +124,23 @@
                             efforts and making a positive impact on the lives of those in need.</p>
                         <div class="card-actions justify-center flex">
                             <input id="feni-donation" type="text" placeholder="Donation Balance" class="input w-full" />
-                            <button id="feni" class="btn w-full bg-[#B4F461]">Donate Now</button>
+                            <button id="feni" onclick="my_modal_5.showModal()" class="btn w-full bg-[#B4F461]">Donate
+                                Now</button>
+                            <!-- Modal -->
+                            <dialog id="feni_modal" class="modal modal-bottom sm:modal-middle">
+                                <div class="modal-box">
+                                    <h3 class="text-lg font-bold">Congrates!</h3>
+                                    <img src="/assets/coin.png" alt="">
+                                    <p class="py-4">You Have Donate for Human Kind.</p>
+                                    <h3 class="font-bold">Successfully</h3>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                            <!-- if there is a button in form, it will close the modal -->
+                                            <button class="btn">Close</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </dialog>
                         </div>
                     </div>
                 </div>
@@ -136,23 +169,43 @@
                             relief
                             efforts and making a positive impact on the lives of those in need.</p>
                         <div class="card-actions justify-center flex">
-                            <input id="qouta-donation" type="text" placeholder="Donation Balance" class="input w-full" />
-                            <button id="qouta" class="btn w-full bg-[#B4F461]">Donate Now</button>
+                            <input id="qouta-donation" type="text" placeholder="Donation Balance"
+                                class="input w-full" />
+                            <button id="qouta" onclick="my_modal_5.showModal()" class="btn w-full bg-[#B4F461]">Donate
+                                Now</button>
+                            <!-- Modal -->
+                            <dialog id="qouta_modal" class="modal modal-bottom sm:modal-middle">
+                                <div class="modal-box">
+                                    <h3 class="text-lg font-bold">Congrates!</h3>
+                                    <img src="/assets/coin.png" alt="">
+                                    <p class="py-4">You Have Donate for Human Kind.</p>
+                                    <h3 class="font-bold">Successfully</h3>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                            <!-- if there is a button in form, it will close the modal -->
+                                            <button class="btn">Close</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </dialog>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
+
         <!-- History Section -->
         <div id="history-section" class="mt-6 hidden">
             <p>History content goes here...</p>
         </div>
+
     </main>
 
 
     <!-- scripts-->
     <script src="/Js/index.js"></script>
+    <script src="/Js/donation.js"></script>
+    <script src="/utilities/utilities.js"></script>
 </body>
 
 </html>
