@@ -46,7 +46,7 @@
         <div class="flex gap-3 justify-center items-center mx-auto mt-10">
             <button id="btn-donation" onclick="setActive('donation')"
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Donation</button>
-            <button tton id="btn-history" onclick="setActive('history')"
+            <button id="btn-history" onclick="setActive('history')"
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">History</button>
         </div>
 
@@ -196,7 +196,10 @@
 
         <!-- History Section -->
         <div id="history-section" class="mt-6 hidden">
-            <p>History content goes here...</p>
+            <div class="max-w-[1440px] w-full mx-auto px-6">
+                <h1 class="text-2xl font-bold mb-4">All Donations</h1>
+                <div id="donation-container"></div>
+            </div>
         </div>
 
     </main>
