@@ -12,12 +12,14 @@ document.getElementById("noakhali").addEventListener("click", function (event) {
     return;
   }
 
-  const newBalance = donationMoney + balance;
+  
 
   if (newBalance > totalBalance) {
     alert("You have not enough money!");
     return;
   }
+  
+  const newBalance = donationMoney + balance;
   const reduceTotalBalance = totalBalance - donationMoney;
 
   // Show modal
@@ -50,13 +52,12 @@ document.getElementById("feni").addEventListener("click", function (event) {
     return;
   }
 
-  const newBalance = donationMoney + balance;
-
   if (newBalance > totalBalance) {
     alert("You have not enough money!");
     return;
   }
 
+  const newBalance = donationMoney + balance;
   const reduceTotalBalance = totalBalance - donationMoney;
 
   // Show modal
@@ -89,13 +90,12 @@ document.getElementById("qouta").addEventListener("click", function (event) {
     return;
   }
 
-  const newBalance = donationMoney + balance;
-
   if (newBalance > totalBalance) {
     alert("You have not enough money!");
     return;
   }
 
+  const newBalance = donationMoney + balance;
   const reduceTotalBalance = totalBalance - donationMoney;
 
   // Show modal
